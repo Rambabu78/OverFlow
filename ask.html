@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>your questions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	text-align:center;
+}
+
+</style>
+</head>
+<body>
+<form><h3>Your question</h3><br>
+<br>
+    <label for="name"><b>Title:</b></label>
+    <input type="text" name="name" placeholder="Title name."><br>
+	<label for="code"><b>Code:</b></label>
+	<textarea>code...</textarea><br>
+	<label for="exception"><b>exception:</b></label>
+    <input type="text" name="exception" placeholder="blank"><br>
+	<label for="tag"><b>tags:</b></label>
+    <input type="text" name="tags" placeholder="blank"><br>
+     <input type="submit" value="Ask Question">
+</body>
+</html>
